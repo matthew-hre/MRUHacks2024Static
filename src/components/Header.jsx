@@ -27,9 +27,9 @@ function Header() {
       <div>
         <img src={IconTest} className="logo" alt="mruhacks icon" />
         <ul className={showMenu ? "dropdown-menu first-menu" : "first-menu"}>
-          <li>
+          {/* <li>
             <a href="#joining-in">Joining In</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="#hackathon-prizes">Hackathon Winners</a>
           </li>

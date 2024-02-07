@@ -36,30 +36,28 @@ function Content() {
       <div className="hero">
         <img src={LogoTest} alt="MRUHacks Logo" />
         <div className="hero-text">
-          <h1>Join us for MRUHacks!</h1>
-          <p>
-            Get together with fellow Mount Royal University students to
-            contribute, learn, and win exciting prizes. Join us on October 5th -
-            6th, 2024!
+          {/* <h1>Get ready for MRUHacks 2024!</h1> */}
+          <p style={{ padding: "32px 12px" }}>
+            Join us on October 5th - 6th, 2024! Stay tuned for more details!
           </p>
-          <h2 className="countdown">
+          {/* <h2 className="countdown">
             MRUHacks 2024 starts in: <span id="days">{timeRemaining.days}</span>{" "}
             days, <span id="hours">{timeRemaining.hours}</span> hours,{" "}
             <span id="minutes">{timeRemaining.minutes}</span> minutes,{" and "}
             <span id="seconds">{timeRemaining.seconds}</span> seconds
-          </h2>
+          </h2> */}
         </div>
       </div>
-      <div className="article" id="joining-in">
-        <h2>Joining In</h2>
+      {/*<div className="article" id="joining-in">
+         <h2>Joining In</h2>
         <p className="popup">
           Stay tuned for more information on how to join MRUHacks 2024!
         </p>
-      </div>
+      </div> */}
       <div className="article" id="sponsors">
         <h2>Sponsors</h2>
-        <p>
-          Interested in sponsoring MRUHacks? Please contact us at{" "}
+        <p className="popup" style={{ textAlign: "center" }}>
+          Interested in sponsoring? Please email us at{" "}
           <a href="mailto:hello@mruhacks.ca">hello@mruhacks.ca</a>!
         </p>
       </div>
@@ -78,16 +76,15 @@ function Content() {
         </p>
         <h3>When is MRUHacks?</h3>
         <p>
-          MRUHacks will be held from October 5th - 6th, 2024. The event will be
-          the Riddell Library and Learning Centre.
+          MRUHacks will be held from October 5th - 6th, 2024, in the Riddell
+          Library and Learning Centre.
         </p>
         <h3>Who can participate?</h3>
         <p>
           MRUHacks is open to all Albertan Post Secondary students. It's
           completely free to participate, and you don't need any prior
           experience to participate. You can participate as an individual or as
-          a team of up to four people. If you're interested in participating,
-          please fill out the registration form.
+          a team of up to four people.
         </p>
       </div>
       <Footer />
